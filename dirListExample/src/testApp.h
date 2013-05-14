@@ -18,11 +18,12 @@ class testApp : public ofBaseApp{
 		void mouseReleased(int x, int y, int button);
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
-		void gotMessage(ofMessage msg);		
+		void gotMessage(ofMessage msg);
+    
 		
    // vector<string> testApp::ofxReadLines(string filename) ;
 
-    
+    string Minput;
 		// we will have a dynamic number of images, based on the content of a directory:
 		ofDirectory dir;
 		vector<ofImage> images;
@@ -31,7 +32,7 @@ class testApp : public ofBaseApp{
 		int currentImage;
    // string data;
     vector<string> fileTxt ;
-    void loadData();
-		
+    //ofVec2f loadData();
+	string loadData(string Minput);
 };
 

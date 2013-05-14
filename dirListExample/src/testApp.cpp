@@ -1,5 +1,13 @@
 #include "testApp.h"
 #include <fstream>
+#include <stdlib.h>
+#include <iostream>
+#include <sstream>
+#include <string>
+
+
+
+using namespace std;
 
 //--------------------------------------------------------------
 void testApp::setup(){
@@ -8,9 +16,11 @@ void testApp::setup(){
 
 	dir.listDir("images/of_logos/");
 	dir.sort(); // in linux the file system doesn't return file lists ordered in alphabetical order
-
+    Minput = "60002";
     
-   loadData();
+   //ofVec2f zipcode = loadData( );
+    string zipcode = loadData( Minput);
+    cout<<zipcode;
     
 	//allocate the vector to have as many ofImages as files
 	if( dir.size() ){
@@ -26,40 +36,53 @@ void testApp::setup(){
 	ofBackground(ofColor::white);
 }
 //--------------------------------------------------------------
-void testApp::loadData(){
+string testApp::loadData(string input){
     ifstream file;
     string line;
    
+    cout<<input<<endl;
+    
     file.open(ofToDataPath("zips.csv").c_str());//open text file
    
     if(!file.is_open())
     {
-        printf(" can't open the file ");
+        cout<<" can't open the file ";
     }
     
     while(!file.eof())//file!=NULL)
-          // if(file!=NULL)
     {
         getline(file, line);
        // cout<<line<<endl;
+        fileTxt = ofSplitString(line, "\"");
+        
         for(int j=0;j<fileTxt.size();j++)
 
         {
              if(j>13){
-            cout<<fileTxt[1]<<":zip " <<  fileTxt[7]<<":lat "<<fileTxt[9]<<":long"<<endl;
+           // cout<<fileTxt[1]<<":zip " <<  fileTxt[7]<<":lat "<<fileTxt[9]<<":long"<<endl;
+                 if(input ==fileTxt[1]){
+                     
+                     cout<<"got it"<<fileTxt[7]<<endl;
+                     return fileTxt[7];
+                 }
            }
         }
-        fileTxt = ofSplitString(line, "\"");
         }
     file.close();
     cout<<"file closed";
+   
     
-  
+    //int d1;
+   // stringstream(fileTxt[7])<<d1;
+    //cout<<fileTxt[7]<<" is the string"<<d1<<"  : is the double"<<endl; 
+   // float f = std::atof(*fileTxt[7]);    
+   // return ofVec2f((float)fileTxt[7], (float)fileTxt[9]);
     
-    
+   
     
     }
     
+
 
 
 //--------------------------------------------------------------
