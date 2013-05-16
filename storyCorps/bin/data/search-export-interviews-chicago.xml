@@ -1,0 +1,467 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Jack Kalish</Author>
+  <LastAuthor>Jack Kalish</LastAuthor>
+  <Created>2013-04-27T23:13:03Z</Created>
+  <Company>MacroHard</Company>
+  <Version>12.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14420</WindowHeight>
+  <WindowWidth>21600</WindowWidth>
+  <WindowTopX>-20</WindowTopX>
+  <WindowTopY>-20</WindowTopY>
+  <Date1904/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <NumberFormat ss:Format="General Date"/>
+  </Style>
+  <Style ss:ID="s22">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="search-export-interviews-chicag">
+  <Table ss:ExpandedColumnCount="89" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1">
+   <Row>
+    <Cell><Data ss:Type="String">Interview ID</Data></Cell>
+    <Cell><Data ss:Type="String">Interview Date</Data></Cell>
+    <Cell><Data ss:Type="String">Record Creation Date</Data></Cell>
+    <Cell><Data ss:Type="String">Tier</Data></Cell>
+    <Cell><Data ss:Type="String">Venue</Data></Cell>
+    <Cell><Data ss:Type="String">Address Name</Data></Cell>
+    <Cell><Data ss:Type="String">Street</Data></Cell>
+    <Cell><Data ss:Type="String">Apartment Number</Data></Cell>
+    <Cell><Data ss:Type="String">City</Data></Cell>
+    <Cell><Data ss:Type="String">State / Province</Data></Cell>
+    <Cell><Data ss:Type="String">Postal Code</Data></Cell>
+    <Cell><Data ss:Type="String">Country</Data></Cell>
+    <Cell><Data ss:Type="String">Fee for Service</Data></Cell>
+    <Cell><Data ss:Type="String">Fee for Service Partnership</Data></Cell>
+    <Cell><Data ss:Type="String">Fee for Service Organization</Data></Cell>
+    <Cell><Data ss:Type="String">Outreach</Data></Cell>
+    <Cell><Data ss:Type="String">Outreach Partnership</Data></Cell>
+    <Cell><Data ss:Type="String">Outreach Organization</Data></Cell>
+    <Cell><Data ss:Type="String">Initiative</Data></Cell>
+    <Cell><Data ss:Type="String">Sept 11 - Name of Remembered</Data></Cell>
+    <Cell><Data ss:Type="String">Sept 11 - Participant Info</Data></Cell>
+    <Cell><Data ss:Type="String">Sept 11 - Relationship of Remembered</Data></Cell>
+    <Cell><Data ss:Type="String">VIP</Data></Cell>
+    <Cell><Data ss:Type="String">Facilitator</Data></Cell>
+    <Cell><Data ss:Type="String">Interview Description</Data></Cell>
+    <Cell><Data ss:Type="String">Facilitator Subject Log</Data></Cell>
+    <Cell><Data ss:Type="String">StoryKit Rented By</Data></Cell>
+    <Cell><Data ss:Type="String">Participant Count</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Name 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 1 to Interviewer 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 1 to Storyteller 2</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 1 to Interviewer 2</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Release 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Name 2</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 2 to Interviewer 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 2 to Storyteller 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 2 to Interviewer 2</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Release 2</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Name 3</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 3 to Interviewer 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 3 to Storyteller 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 3 to Interviewer 2</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Release 3</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Name 4</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 4 to Interviewer 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 4 to Storyteller 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 4 to Interviewer 2</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Release 4</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Name 5</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 5 to Interviewer 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 5 to Storyteller 1</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Relationship 5 to Interviewer 2</Data></Cell>
+    <Cell><Data ss:Type="String">Storyteller Release 5</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Name 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 1 to Storyteller 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 1 to Interviewer 2</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 1 to Storyteller 2</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Release 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Name 2</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 2 to Storyteller 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 2 to Interviewer 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 2 to Storyteller 2</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Release 2</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Name 3</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 3 to Storyteller 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 3 to Interviewer 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 3 to Storyteller 2</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Release 3</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Name 4</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 4 to Storyteller 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 4 to Interviewer 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 4 to Storyteller 2</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Release 4</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Name 5</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 5 to Storyteller 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 5 to Interviewer 1</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Relationship 5 to Storyteller 2</Data></Cell>
+    <Cell><Data ss:Type="String">Interviewer Release 5</Data></Cell>
+    <Cell><Data ss:Type="String">Flag for Production</Data></Cell>
+    <Cell><Data ss:Type="String">Oral History</Data></Cell>
+    <Cell><Data ss:Type="String">Testimonial</Data></Cell>
+    <Cell><Data ss:Type="String">Production Interview</Data></Cell>
+    <Cell><Data ss:Type="String">Production Notes</Data></Cell>
+    <Cell><Data ss:Type="String">Language</Data></Cell>
+    <Cell><Data ss:Type="String">Other Language</Data></Cell>
+    <Cell><Data ss:Type="String">Keywords - Fixed Subjects</Data></Cell>
+    <Cell><Data ss:Type="String">Keywords - General</Data></Cell>
+    <Cell><Data ss:Type="String">Keywords - People</Data></Cell>
+    <Cell><Data ss:Type="String">Keywords - Places</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DDB000954</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2011-06-30T15:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2011-07-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Door-to-Door</Data></Cell>
+    <Cell><Data ss:Type="String">Door-to-Door Kit B</Data></Cell>
+    <Cell><Data ss:Type="String">Ritz-Carlton Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">160 East Pearson Street</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Nathan Cummings Foundation (2011)</Data></Cell>
+    <Cell><Data ss:Type="String">Nathan Cummings Foundation</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">mherman</Data></Cell>
+    <Cell><Data ss:Type="String">Buddy Mayer (90) talks to her son, Rob Mayer (61), and her granddaughter, Jaimie Mayer Phinney (28), about the history of the Nathan Cummings Foundation and the role of philanthropy in their family.</Data></Cell>
+    <Cell><Data ss:Type="String">2:00 Recently, BM has become a trustee emeritus of the Nathan Cummings Foundation. She is proud to be connected to the foundation and glad to be involved without a huge demand of her time. BM is happy that her grandchildren are becoming more involved with the foundation, including becoming trustees and associates.&#10;&#10;5:00 Recently, the foundation has decided to exist in perpetuity. BM envisions future generations staying involved. RM has been glad to see the third and fourth generation assume more leadership and responsibilities at the foundation. RM hopes the fourth generation will feel more comfortable voicing their interests and help to shape the future of the foundation.&#10;&#10;9:45 JMP feels empowered as an associate with the board of Nathan Cummings Foundation. BM‚Äôs father had faith and confidence in the younger people around him.&#10;&#10;14:45 When BM was growing up, both her grandparents were founders of synagogues and community organizations. Kindness and tzedakah were impressed upon BM. Action is more important than making plans. ‚ÄúNothing will ever be accomplished if all obstacles must be overcome first.‚Äù&#10;&#10;20:00 RM was always surrounded by community outreach and support. Their family was always inviting people to see art and bringing food and clothing to the needy. That legacy was transmitted to RM‚Äôs generation.&#10;&#10;22:30 Tzedakah was instilled in JMP‚Äôs upbringing &#45;- she planted many trees in Israel. JMP‚Äôs brother made a bologna sandwich for BM one time because he though older people needed food. When JMP was in high school, she founded a philanthropy club. The importance of giving back has been taught to JMP.&#10;&#10;26:15 Charity is more passive giving, while philanthropy is more personal. This is the reason RM has decided to spend the rest of his career involved in philanthropy. BM makes a gift each year to her grandchildren. She likes them to divide it 3 ways: 1/3 for personal use, 1/3 for investments, 1/3 for donations.&#10;&#10;TRACK 2&#10;&#10;0:00 During the Civil Rights Movement, BM went to Mississippi and saw how workers were treated in the fields. It was gratifying for BM to spend time with the workers‚Äô children during the days.&#10;&#10;6:00 BM would like the foundation to focus more on the area of disability. There is a need and it is hard to understand disability until you have felt what it is like to lose some mobility, etc.&#10;&#10;13:00 The ‚Äúsundance compact‚Äù provided independent review of qualifications for board members. It changed the criteria from entitlement to merit. The board hasn‚Äôt always had all the skills it has required because of the composition of the board. Now they are more concerned with skills and abilities rather than family balance.&#10;&#10;19:00 When BM started the foundation, there were no set program interests. They modeled it on Nathan Cummings‚Äô interests: heath, art, Jewish affairs, and later added environment. In the future, the program areas may change due to new interests of younger generations. Society is changing rapidly, so new programs needs may present themselves.&#10;&#10;23:00 RM thinks that unless the foundation is more flexible in serving the needs of the community and foundation, it will cease to be a true family foundation. BM‚Äôs favorite sayings: ‚Äúwith privilege comes responsibility‚Äù </Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">3.0</Data></Cell>
+    <Cell><Data ss:Type="String">Mayer, Buddy </Data></Cell>
+    <Cell><Data ss:Type="String">granddaughter/daughter</Data></Cell>
+    <Cell><Data ss:Type="String">son/father</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell><Data ss:Type="String">Mayer, Robert J.</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Phinney, Jaimie Mayer</Data></Cell>
+    <Cell><Data ss:Type="String">grandmother/mother</Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="84"><Data ss:Type="String">English</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Children|Extended Family|Grandparents|Judaism|Parents|Siblings</Data></Cell>
+    <Cell><Data ss:Type="String">economic beliefs and practices|family characters|family expressions|family traditions|James Cummings|memories of former times|memories of growing up|Nathan Cummings|Nathan Cummings Foundation|philanthropy|religious beliefs and practices|social beliefs and practices|tzedakah</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MBX000483</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2005-08-31T13:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2005-08-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Booth Interview</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East (MBX)</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East</Data></Cell>
+    <Cell><Data ss:Type="String">Field Museum</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">nyulman</Data></Cell>
+    <Cell><Data ss:Type="String">A 43 year old woman interviews her mother (75) about her life, activism and their family. </Data></Cell>
+    <Cell><Data ss:Type="String">2:30 ‚ÄúGood morning Mrs. Rosenberg‚Äù - political awareness awakening - Signed letter protesting McCarthy.&#10;&#10;16:30 Travelling Cross Country - Broadened whole idea of the world&#10;&#10;17:00 4 women took off in a Studebaker - Travelled U.S. for 9 weeks.&#10;18:00 Took cherry stems to save money&#10;23:40 In Washington State - Frontier Cabins&#10;24:30 Many Glaciers National Park - Care taker invited them in for coffee - anti-semetic remarks.&#10;41:45 So Curious &amp; Engaged in the world - profound effect. </Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Saks, Esther S. </Data></Cell>
+    <Cell><Data ss:Type="String">daughter</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Saks, Jane M. </Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="84"><Data ss:Type="String">English</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Childcare|Children|Collecting|Coming Of Age|Coworkers|Discrimination|Extended Family|Favorite Foods|Fear|First Meetings|Immigration Stories|Listening Habits|Marriage|Parents|Photography|Prejudice|Schools|Siblings|Students|Teachers|Town Life|Traumatic Memories|Urban Life|Workday Life|Identity</Data></Cell>
+    <Cell><Data ss:Type="String">anecdotes (humorous but true stories)|anti semetism|canvassing|cohorts (groups of friends)|college|cross country trips|economic beliefs and practices|ethnicity|family heroes|family traditions|family trips and excursions|historical events/people|McCarthyism|memories of former times|memories of growing up|personal experiences|Political activism|political beliefs and practices|road trips|social beliefs and practices|spouse</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MBX006774</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2010-06-04T12:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2010-06-04T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Booth Interview</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East (MBX)</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East</Data></Cell>
+    <Cell><Data ss:Type="String">1852 West 19th Street</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">National Museum of Mexican Art (2010)</Data></Cell>
+    <Cell><Data ss:Type="String">National Museum of Mexican Art</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">vlora</Data></Cell>
+    <Cell><Data ss:Type="String">Rebecca Meyers, 49, talks about her work at the National Museum of Mexican Art and shares an anecdote about a museum visitor with StoryCorps facilitator, Jorge Rios, 24</Data></Cell>
+    <Cell><Data ss:Type="String">0:59 Rebecca started working at the National Museum of Mexican Art in 1990.&#10;&#10;1:54 She shares an anecdote about a young Mexican boy who came into the Museum and asked her if ‚Äúthey had the real things in the back?‚Äù and finds the experience was very telling of the role of the institution in the community.&#10;&#10;5:50 The Museum started with a budget of $300.00 and it was run by a group of public school teachers.&#10;&#10;9:13 The museum is a magnet in Pilsen for people outside. It is a destination that serves as good economic stimulus.&#10;&#10;10:00 for the community itself it is a resource, provides services and hosts a series of events.&#10;&#10;10:48 Rebecca was always fascinated by art and remembers when she got her first tempera set.</Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Meyers, Rebecca D.</Data></Cell>
+    <Cell><Data ss:Type="String">StoryCorps interviewer</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Rios, Jorge </Data></Cell>
+    <Cell><Data ss:Type="String">other</Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="83"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Community Characters|Community History|Community Organizations|Immigration Stories|Legacy|Neighborhood Life|Schools|Teachers|Urban Life|Identity</Data></Cell>
+    <Cell><Data ss:Type="String">anecdotes (humorous but true stories)|appearance|archeological|blood drives|Chicago|college|community events|ethnicity|historical events/people|history|memories of former times|Mexico|National Museum of Mexican Art|paint|personal experiences|Pilsen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MBX006807</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2010-06-13T10:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2010-06-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Booth Interview</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East (MBX)</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East</Data></Cell>
+    <Cell><Data ss:Type="String">1852 West 19th Street</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">vlora</Data></Cell>
+    <Cell><Data ss:Type="String">Kenneth Lehman, 66, interviews his grandson Max Lehman, 15 about being diagnosed with diabetes, about his high school experience, and his views on life.</Data></Cell>
+    <Cell><Data ss:Type="String">2:18 Max likes art class. He likes seeing on paper in pencil what he sees with his eyes.&#10;&#10;12:00 Max talks about what it was like being diagnosed with type A diabetes. It‚Äôs no fun having to inject yourself in public.&#10;&#10;17:47 He would like to be a father but is not sure if he‚Äôd like to be a spouse.&#10;&#10;21:11 He asks his grandfather what he thinks about his grandmother‚Äôs passive-aggressive comments about Ken‚Äôs mother, Francie.&#10;&#10;25:07 Ken talks a little about what he was like as a teenager and reflects on how he and his grandson are different and similar.&#10;&#10;28:45 Generally speaking, Max has a pessimistic view on life.</Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Lehman, Max </Data></Cell>
+    <Cell><Data ss:Type="String">grandfather</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Lehman, Kenneth </Data></Cell>
+    <Cell><Data ss:Type="String">grandson</Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="83"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Achievements and Awards|Children|Cures|Death|Earliest Memories|Extended Family|First Meetings|Grades|Grandparents|High School|Illness|Parents|Schools|Students|Teachers</Data></Cell>
+    <Cell><Data ss:Type="String">Africa|CARE|France|insulin|Italy|Lake Tanganyika|memories of former times|memories of growing up|NGO|personal experiences|school day memories|skiing|social beliefs and practices|spouse|Tanzania|type 1 diabetes|University of Chicago Laboratory school</Data></Cell>
+   </Row>
+   <Row ss:Height="409.0">
+    <Cell><Data ss:Type="String">MBX006843</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2010-06-23T15:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2010-06-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Booth Interview</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East (MBX)</Data></Cell>
+    <Cell><Data ss:Type="String">Puerto Rican Cultural Center</Data></Cell>
+    <Cell><Data ss:Type="String">2700 West Haddon Av</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">us</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Puerto Rican Cultural Center (2010)</Data></Cell>
+    <Cell><Data ss:Type="String">Puerto Rican Cultural Center</Data></Cell>
+    <Cell><Data ss:Type="String">Historias Initiative</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">vlora</Data></Cell>
+    <Cell><Data ss:Type="String">Ricardo Jimenez Jimenes and Samuel A Reyes have one of their first conversations after not seeing each other for 30 years due to Ricardo‚Äôs incarceration as a Puerto Rican political prisoner.</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">1:23 They agree: yesterday was a crazy day. They saw each other for the first time in a really long time.&#13;&#10;&#13;&#10;6:55 Ricardo is excited to learn about Herbie‚Äôs life. D√≥nde est√° Herbie now?&#13;&#10;&#13;&#10;9:49 To be a teacher in this community, you have to be more than just that. You have to be a mentor, and a half-parent.&#13;&#10;&#13;&#10;16:44 Ricardo was in prison from 1979 to 1999. In 2009 He came back to Chicago.&#13;&#10;&#13;&#10;20:54 Ricardo comments on an antology of Puerto Rican writings by Roberto Santiago.&#13;&#10;&#13;&#10;23:07 The assimilation process for Puerto Ricans is different, slower.</Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Jim√©nez Jim√©nez, Ricardo </Data></Cell>
+    <Cell><Data ss:Type="String">friend</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Reyes, Samuel Q</Data></Cell>
+    <Cell><Data ss:Type="String">friend</Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="83"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Community Organizations|Discrimination|Immigration Stories|Lost Friends|Neighborhood Life|Siblings|Urban Life|Visions|Identity</Data></Cell>
+    <Cell><Data ss:Type="String">anecdotes (humorous but true stories)|appearance|Chicago|cultural center|ethnicity|family members in history|feminist|hip hop|historical events/people|Loyola University|memories of former times|New York|Notre Dame University|personal experiences|political beliefs and practices|political prisoner|prison|Puerto Rican Liberation movement|Puerto Rico|social beliefs and practices</Data></Cell>
+   </Row>
+   <Row ss:Height="409.0">
+    <Cell><Data ss:Type="String">MBX006837</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2010-06-20T15:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2010-06-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Booth Interview</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East (MBX)</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East</Data></Cell>
+    <Cell><Data ss:Type="String">1852 West 19th Street</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">us</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Association House (2010)</Data></Cell>
+    <Cell><Data ss:Type="String">Association House</Data></Cell>
+    <Cell><Data ss:Type="String">Historias Initiative</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">vlora</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Mar√≠a Rivera, 48, interviews her friend Fernando hernandez, 51, about his life in Chicago and at Association House.&#13;&#10;&#13;&#10;Mar√≠a Rivera, 48, entrevista a su amigo Fernando Hernandez, 51 sobre su vida en Chicago y en Association House.</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2:09 Su abuelo es la persona m√°s importante de su vida.&#13;&#10;&#13;&#10;5:44 Algunas lecciones importantes que ha aprendido es no gritar lobo, y tratar a los amigos como le gustar√≠a que lo traten a uno.&#13;&#10;&#13;&#10;7:53 La vez que se sinti√≥ m√°s solo en su vida fue cuando cay√≥ enfermo y lo tuvieron que hospitalizar.&#13;&#10;&#13;&#10;13:37 Fernando tiene familiares en Estados Unidos, sobretodo primos.&#13;&#10;&#13;&#10;20:05 El D.r Nieto fue quien lo trajo a Association House, despu√©s de sacarlo del programa de Reeed de Chicago.&#13;&#10;&#13;&#10;23:59 Sus amigos lo llaman ‚ÄúRuido‚Äù porque no les gusta como Fernando canta.</Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Hernandez, Fernando </Data></Cell>
+    <Cell><Data ss:Type="String">friend</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Rivera, Mar√≠a M.</Data></Cell>
+    <Cell><Data ss:Type="String">friend</Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="83"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">Spanish</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Earliest Memories|Illness|Immigration Stories|Job Satisfaction|Occupational Traditions|Schools|Traumatic Memories|Workday Life</Data></Cell>
+    <Cell><Data ss:Type="String">Abuelo|amigos|Association House|Chicago|class|dancing|Dr. Nieto|family naming and nicknames|gritar lobo|hermano|memories of former times|memories of growing up|primos|Puerto Rico|Ruido|toy factory</Data></Cell>
+   </Row>
+   <Row ss:Height="409.0">
+    <Cell><Data ss:Type="String">MBX006721</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2010-05-21T12:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2010-05-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Booth Interview</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East (MBX)</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East</Data></Cell>
+    <Cell><Data ss:Type="String">1852 West 19th Street</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">us</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">Historias Initiative</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">vlora</Data></Cell>
+    <Cell><Data ss:Type="String">Sylvia Ayala, 47 talks to her boyfriend Carlos G. Gutierrez, 49 about her work as an artist and activist.</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">3:48 Motherhood has been Sylvia‚Äôs biggest accomplishment. &#13;&#10;&#13;&#10;8:08 When her son was five years old she became pregnant again and it was during this pregnancy that she was diagnosed with cervical cancer.&#13;&#10;&#13;&#10;14:35 She went through a very difficult period in her life but her doctor helped her through it.&#13;&#10;&#13;&#10;16:41 She had very abusive parents and as a child she developed an interest in art out of sheer boredom.&#13;&#10;&#13;&#10;22:39 For her, the art-making process is very imaginative and fluid.&#13;&#10;&#13;&#10;30:15 Carlos describes what Sylvia looks like when she is in her ‚Äúpainting mood.‚Äù</Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Alambar, Sylvia </Data></Cell>
+    <Cell><Data ss:Type="String">friends</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Gutierrez, Carlos G</Data></Cell>
+    <Cell><Data ss:Type="String">girlfriend</Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="83"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Childcare|Death|Discrimination|First Meetings|Illness|Instrument Playing|Listening Habits|Lovers|Painting|Racism|Schools|Identity</Data></Cell>
+    <Cell><Data ss:Type="String">abusive|alcohol|Armando Miguel|birth of first child|cervical cancer|chemotherapy|Chiapas|Chicago|chile piquin|domestic violence|economic beliefs and practices|family doctor stories|fluid|fundraiser|Gallery|hysterectomy|jazz|Lila Downs|Lola Beltr√°n|political beliefs and practices|radiation|social beliefs and practices|women‚Äôs institutes</Data></Cell>
+   </Row>
+   <Row ss:Height="409.0">
+    <Cell><Data ss:Type="String">MBX006786</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2010-06-06T10:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2010-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Booth Interview</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East (MBX)</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East</Data></Cell>
+    <Cell><Data ss:Type="String">1852 West 19th Street</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">us</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">Historias Initiative</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">vlora</Data></Cell>
+    <Cell><Data ss:Type="String">Ireri Unzueto Carrasco, 23, interviews her friend Mandie Ryan, 24 about the work that she does, about why she is in Chicago and about why she is on a wheelchair.</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">3:19 One of the most fun experiences in her life was a hitchhiking trip she took from New Orleans to Chicagon with four other people and a cat.&#13;&#10;&#13;&#10;6:53 Mandie does work with prisoners, writing them letters, editing zines for them, etc.&#13;&#10;&#13;&#10;12:14 She talks about one of her experiences visiting one of the prisoners she had  been corresponding with for a few years.&#13;&#10;&#13;&#10;14:26 She talks about her friends Chris and Larry, who are in jail. One of them is getting out next week.&#13;&#10;&#13;&#10;26:45 She lost blood circulation to her legs, which made some of the bone die, and she lost control of her hip,&#13;&#10;&#13;&#10;35:19 Ireri talks about her admiration for Mandie and how she came to know her, as Mandie came iin and out of Chicago.</Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Ryan, Mandie </Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Unzueta Carrasco, Nadia Sol Ireri</Data></Cell>
+    <Cell><Data ss:Type="String">friend</Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="83"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Best Friends|Cures|Illness|Neighborhood Life|Siblings|Town Life|Traumatic Memories|Law</Data></Cell>
+    <Cell><Data ss:Type="String">acupuncture|blood circulation|bone|bone died|Books to prisoners|Chicago|computer space|correspondence|Detroit|Dream Act|family doctor stories|hip|hitchhiking|immigration|injuries|letters|living space|luck and fate|memories of former times|New Orleans|personal experiences|political beliefs and practices|prisoner|social beliefs and practices|train</Data></Cell>
+   </Row>
+   <Row ss:Height="409.0">
+    <Cell><Data ss:Type="String">MBX006740</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2010-05-24T16:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2010-05-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Booth Interview</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East (MBX)</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East</Data></Cell>
+    <Cell><Data ss:Type="String">1852 West 19th Street</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">us</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">Historias Initiative</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">whenrylester</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Virginia le intrevisa a Milo sobre su imigracion a los EEUU, y su trabajo y interes en la radio y con el arte.&#13;&#10;&#13;&#10;Facilitator Virginia interviews Milo about his immigration to the United States, and his work and interest in the radio and art. </Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">3:29  Milo es de Ecuador.  Cruz√≥ a los EEUU dentro de Mexico, Juarez.  √âl tuvo que cruzar el rio aunque no sab√≠a nadar.  &#13;&#10;&#13;&#10;Milo is from Ecuado.  He crossed into the US through Mexico at Juarez.  He had to cross the river despite not knowing how to swim.  &#13;&#10;&#13;&#10;8:50  Le llevaron a un Burger King para agua y comida desp√∫es de andar lejos en Texas.  &#13;&#10;They brought him to a Burger King for water and food after walking miles in Texas.&#13;&#10;&#13;&#10;14:46  Vino a Chicago, a un barrio mexicano y todas aspetos de su vida cambiaron completamente.   &#13;&#10;&#13;&#10;He came to Chicago, to a Mexican neighborhood, and all aspects of his life changed completely.&#13;&#10;&#13;&#10;17:00 Milo le gusta mucho el arte.  Es una expresion verdad de la seria humano.  &#13;&#10;&#13;&#10;Milo loves art.  He sees it as a true expression of being human. &#13;&#10;&#13;&#10;27:30  Milo receb√≠ su GED y quer√≠a estudiar m√°s, pero, le dijeron que no pod√≠a asistir la universidad porque no ten√≠a papeles.  &#13;&#10;&#13;&#10;Milo received his GED and wanted to study more, but was told that he couldn‚Äôt attend university because he didn‚Äôt have papers. </Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Moreno, Milo </Data></Cell>
+    <Cell><Data ss:Type="String">interviewer</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Lora, Virginia </Data></Cell>
+    <Cell><Data ss:Type="String">interviewee</Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="83"><Data ss:Type="String">n/a</Data></Cell>
+    <Cell><Data ss:Type="String">Spanish</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Achievements and Awards|Changes In Education|Community Organizations|Coworkers|Dance|Dreams|Immigration Stories|Job Satisfaction|Painting|Radio|Soccer|Teachers|Theater|Urban Life|Workday Life|Identity|Sports</Data></Cell>
+    <Cell><Data ss:Type="String">Andean|Artist|Chicago, IL|college|culture|Ecuador|ethnicity|folklore|futbol|GED|human|influential people|interviews|memories of former times|music|personal experiences|pride|swim|Texas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GRB000355</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2007-07-22T14:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-07-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Booth Interview</Data></Cell>
+    <Cell><Data ss:Type="String">Griot Booth</Data></Cell>
+    <Cell><Data ss:Type="String">Griot Booth </Data></Cell>
+    <Cell><Data ss:Type="String">Dusable Museum</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">Griot Initiative</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">rhomann</Data></Cell>
+    <Cell><Data ss:Type="String">Sylvia Taylor tells her son Jabari about her mother, her work and her life experiences.</Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Taylor, Sylvia </Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Taylor, Jabari </Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">no</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="84"><Data ss:Type="String">English</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Best Friends|Children|Christmas|Extended Family|Favorite Foods|First Kiss|Gardening|Graduation|Illness|Job Satisfaction|Legacy|Parents|Reading|Schools|Teachers|Thanksgiving|Workday Life</Data></Cell>
+    <Cell><Data ss:Type="String">anecdotes (humorous but true stories)|cohorts (groups of friends)|Cook County jail|economic beliefs and practices|environmentalism|family naming and nicknames|health education|HIV/ AIDS|memories of growing up|money|personal experiences|political beliefs and practices|regrets|religious beliefs and practices|ritual foods|scientific beliefs and practices|social beliefs and practices|vegetarianism</Data></Cell>
+   </Row>
+   <Row ss:Height="409.0">
+    <Cell><Data ss:Type="String">MBX006844</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="DateTime">2010-06-23T16:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2010-06-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Booth Interview</Data></Cell>
+    <Cell><Data ss:Type="String">MobileBooth East (MBX)</Data></Cell>
+    <Cell><Data ss:Type="String">Puerto Rican Cultural Center</Data></Cell>
+    <Cell><Data ss:Type="String">2700 West Haddon Av</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">us</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Puerto Rican Cultural Center (2010)</Data></Cell>
+    <Cell><Data ss:Type="String">Puerto Rican Cultural Center</Data></Cell>
+    <Cell><Data ss:Type="String">Historias Initiative</Data></Cell>
+    <Cell ss:Index="24"><Data ss:Type="String">whenrylester</Data></Cell>
+    <Cell><Data ss:Type="String">Michael Reyes (17) by his cousin, Xavier L. Burgos (24).  They talk about Puerto Rican pride, their neighborhood of Humboldt Park, and getting into trouble, and working to become someone, a role model.</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">1:00 What it is like to be Puerto Rican from Chicago.  Mike is very proud of his race and heritage.  Being Puerto Rican here is very different than the Puerto Rican culture in Puerto Rico.&#13;&#10;&#13;&#10;3:20  Xavier went to Puerto Rico by himself at age 15.  He was self conscious speaking Spanish and was called a gringo.  All are US citizens, he‚Äôs still Puerto Rican, still Latino, even though he grew up here.&#13;&#10;&#13;&#10;8:40  Puerto Ricans built the neighborhood of Humboldt Park from the ground up and now as it gentrifies they are being pushed out due to high prices.&#13;&#10;&#13;&#10;12:10  Mike wants to become somebody, a role model.&#13;&#10;&#13;&#10;32:10  People in the neighborhood still know Mike from his gang banging days, ant it is hard for him to move forward and stay way from that.  They both want to be a positive influence in their neighborhood, and do that you need to be a successful role model that stays in the neighborhood and doesn‚Äôt leave. </Data></Cell>
+    <Cell ss:Index="28"><Data ss:Type="Number">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Rosa, Michael </Data></Cell>
+    <Cell><Data ss:Type="String">cousin</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">Pending</Data></Cell>
+    <Cell ss:Index="54"><Data ss:Type="String">Burgos, Xavier L.</Data></Cell>
+    <Cell><Data ss:Type="String">cousin</Data></Cell>
+    <Cell ss:Index="58"><Data ss:Type="String">StoryCorps General</Data></Cell>
+    <Cell ss:Index="79"><Data ss:Type="String">Flag for Production</Data></Cell>
+    <Cell><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:Index="83"><Data ss:Type="String">Michael Reyes (17) by his cousin, Xavier L. Burgos (24).  Michael talks about his Puerto Rican pride.  He talks about getting into trouble in his neighborhood with gangs, and trying to turn his life around and be a positive role model.  He tells of two incidents involving violence, once when he had a knife held to his throat and once when a car pulled guns on him and his friends.  Mikey and Xavi talk about how to help their neighborhood, by investing in programs that kids like, graffiti, rapping, sports.  He talks about the challenges of being known in the neighborhood and his desire to become somebody, to become a positive role model.  </Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell ss:Index="86"><Data ss:Type="String">Art|Changes In Education|Community History|Community Organizations|Discrimination|Fear|Gangs|Parades|Schools|Urban Life|Workday Life|Identity</Data></Cell>
+    <Cell><Data ss:Type="String">after school programs|appearance|Chicago, IL|college|community worthies|culture|Diaspora|Division St.|ethnicity|family trips and excursions|flags|future|gang banging|graffiti|housing|Humboldt Park|influential people|injuries|Logan Square|memories of former times|money|National Guard|personal experiences|police|Puerto Rican|Puerto Rico|respect|role models|Salsa|school day memories|social beliefs and practices|United States|violence</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -27,9 +27,10 @@ class testApp : public ofBaseApp{
 		// we will have a dynamic number of images, based on the content of a directory:
 		ofDirectory dir;
 		vector<ofImage> images;
-    string str;
 		int currentImage;
     vector<string> fileTxt ;
     ofVec2f loadData(string Minput);
+    
+    //ofxSVG map;
 };
 

@@ -6,23 +6,19 @@
 #include <string>
 
 
-
 using namespace std;
 
 //--------------------------------------------------------------
 void testApp::setup(){
     
-   
+   // map.load("chicago_maps/US-IL-Chicago-orange_gr.svg");
+
 
 	dir.listDir("images/of_logos/");
 	dir.sort(); // in linux the file system doesn't return file lists ordered in alphabetical order
     Minput = "60061";//sample string to input into the zip code data function
 
-   ofVec2f zipcode = loadData( Minput); //function that takes a zip code as input, returns an x,y pair lat / longitude from a text file based on zip, lat, long and scales it to an image
-    
-    cout<<zipcode;//prints out the result
-    
-	//allocate the vector to have as many ofImages as files
+  	//allocate the vector to have as many ofImages as files
 	if( dir.size() ){
 		images.assign(dir.size(), ofImage());
 	}
@@ -79,12 +75,16 @@ ofVec2f testApp::loadData(string input){
 
 //--------------------------------------------------------------
 void testApp::update(){
+    
+   
+
 
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
 
+    /*
 	if (dir.size() > 0){
 		ofSetColor(ofColor::white);
 		images[currentImage].draw(300,50);
@@ -106,7 +106,20 @@ void testApp::draw(){
 		string fileInfo = "file " + ofToString(i + 1) + " = " + dir.getName(i);
 		ofDrawBitmapString(fileInfo, 50,i * 20 + 50);
 	}
-
+    */
+    
+    
+/*
+    ofPushMatrix();
+    //ofScale(scale,scale);
+    //ofTranslate(w-100, h-100);
+    ofEnableAlphaBlending();
+    
+    //ofTranslate(w - mapBoxWidth + (mapBoxWidth- map.getWidth())/2, h-mapBoxheight+(mapBoxheight-map.getHeight())/2-footerHeight);
+    map.draw();
+    ofDisableAlphaBlending();
+    ofPopMatrix();
+*/
 }
 
 //--------------------------------------------------------------
@@ -115,6 +128,11 @@ void testApp::keyPressed(int key){
 		currentImage++;
 		currentImage %= dir.size();
 	}
+    
+   
+    ofVec2f zipcode = loadData( Minput); //function that takes a zip code as input, returns an x,y pair lat / longitude from a text file based on zip, lat, long and scales it to an image
+    cout<<zipcode<<endl;//prints out the result
+    
 }
 
 //--------------------------------------------------------------

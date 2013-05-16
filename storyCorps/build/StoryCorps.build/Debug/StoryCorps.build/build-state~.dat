@@ -1,0 +1,777 @@
+TStoryCorps
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/Info.plist openFrameworks-Info.plist
+cProcessPCH++ /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h.pth /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/ofxCsv.o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../addons/ofxCsv/src/ofxCsv.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/main.o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/testApp.o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/testApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/data.o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/data/data.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/MacOS/StoryCorpsDebug normal i386
+cPhaseScriptExecution "Run Script" /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+cPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/StoryCorpsDebug.app/Contents/Frameworks/GLUT.framework
+cTouch /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c00000000512A96CA000000000001A480
+t1361745610
+s107648
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c00000000513E740700000000023F11B0
+t1363047431
+s37687728
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c00000000512A9675000000000000BAA0
+t1361745525
+s47776
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000513E75ED00000000003B03A0
+t1363047917
+s3867552
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c00000000512A967900000000000069F0
+t1361745529
+s27120
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers/CarbonSound.h
+c000000005144DB9600000000000002A4
+t1363467158
+s676
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers/Sound.h
+c000000005144DB96000000000001BF49
+t1363467158
+s114505
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers/CMCalibrator.h
+c000000005144DB960000000000001BA4
+t1363467158
+s7076
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers/ColorPicker.h
+c000000005144DB960000000000003FCE
+t1363467158
+s16334
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers/CommonPanels.h
+c000000005144DB960000000000000373
+t1363467158
+s883
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers/FontPanel.h
+c000000005144DB960000000000006560
+t1363467158
+s25952
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/AEInteraction.h
+c000000005144DB970000000000003962
+t1363467159
+s14690
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Appearance.h
+c000000005144DB97000000000002C5DB
+t1363467159
+s181723
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/CarbonEvents.h
+c000000005144DB97000000000009AABA
+t1363467159
+s633530
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/CarbonEventsCore.h
+c000000005144DB97000000000001AB46
+t1363467159
+s109382
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/ControlDefinitions.h
+c000000005144DB970000000000004380
+t1363467159
+s17280
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Controls.h
+c000000005144DB9700000000000292D6
+t1363467159
+s168662
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Dialogs.h
+c000000005144DB9700000000000106BB
+t1363467159
+s67259
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Drag.h
+c000000005144DB970000000000010154
+t1363467159
+s65876
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Events.h
+c000000005144DB970000000000007179
+t1363467159
+s29049
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIAccessibility.h
+c000000005144DB970000000000008BD6
+t1363467159
+s35798
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIArchive.h
+c000000005144DB970000000000004A1C
+t1363467159
+s18972
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIButtonViews.h
+c000000005144DB97000000000000858B
+t1363467159
+s34187
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIClockView.h
+c000000005144DB970000000000001732
+t1363467159
+s5938
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HICocoaView.h
+c000000005144DB970000000000001470
+t1363467159
+s5232
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIComboBox.h
+c000000005144DB970000000000003CBE
+t1363467159
+s15550
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIContainerViews.h
+c000000005144DB970000000000007C05
+t1363467159
+s31749
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIDataBrowser.h
+c000000005144DB970000000000028192
+t1363467159
+s164242
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIDisclosureViews.h
+c000000005144DB970000000000002CD5
+t1363467159
+s11477
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIGeometry.h
+c000000005144DB970000000000002A7B
+t1363467159
+s10875
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIImageViews.h
+c000000005144DB970000000000005471
+t1363467159
+s21617
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HILittleArrows.h
+c000000005144DB970000000000000B8C
+t1363467159
+s2956
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIMenuView.h
+c000000005144DB97000000000000127A
+t1363467159
+s4730
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIObject.h
+c000000005144DB97000000000000F9B2
+t1363467159
+s63922
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIPopupButton.h
+c000000005144DB97000000000000279D
+t1363467159
+s10141
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIProgressViews.h
+c000000005144DB9700000000000010AD
+t1363467159
+s4269
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIRelevanceBar.h
+c000000005144DB970000000000000829
+t1363467159
+s2089
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIScrollView.h
+c000000005144DB970000000000005901
+t1363467159
+s22785
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HISearchField.h
+c000000005144DB9700000000000039CA
+t1363467159
+s14794
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HISegmentedView.h
+c000000005144DB9700000000000079F7
+t1363467159
+s31223
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HISeparator.h
+c000000005144DB970000000000000906
+t1363467159
+s2310
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HISlider.h
+c000000005144DB970000000000002577
+t1363467159
+s9591
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HITabbedView.h
+c000000005144DB97000000000000278F
+t1363467159
+s10127
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HITextLengthFilter.h
+c000000005144DB970000000000000743
+t1363467159
+s1859
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HITextUtils.h
+c000000005144DB970000000000000F12
+t1363467159
+s3858
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HITextViews.h
+c000000005144DB970000000000008064
+t1363467159
+s32868
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HITheme.h
+c000000005144DB970000000000022A9F
+t1363467159
+s141983
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIToolbar.h
+c000000005144DB970000000000013467
+t1363467159
+s78951
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIToolbox.h
+c000000005144DB9700000000000011BC
+t1363467159
+s4540
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIToolboxDebugging.h
+c0000000050A091490000000000002325
+t1352700233
+s8997
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIView.h
+c000000005144DB970000000000026995
+t1363467159
+s158101
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/HIWindowViews.h
+c000000005144DB97000000000000316D
+t1363467159
+s12653
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/IBCarbonRuntime.h
+c000000005144DB970000000000001311
+t1363467159
+s4881
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/IMKInputSession.h
+c000000005144DB970000000000003D72
+t1363467159
+s15730
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Keyboards.h
+c000000005144DB970000000000003CEA
+t1363467159
+s15594
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Lists.h
+c000000005144DB97000000000000AD7C
+t1363467159
+s44412
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacApplication.h
+c000000005144DB970000000000008762
+t1363467159
+s34658
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacHelp.h
+c000000005144DB970000000000008B83
+t1363467159
+s35715
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacTextEditor.h
+c0000000050A09147000000000003B402
+t1352700231
+s242690
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/MacWindows.h
+c000000005144DB9800000000000653F3
+t1363467160
+s414707
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Menus.h
+c000000005144DB98000000000003DCF7
+t1363467160
+s253175
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Notification.h
+c000000005144DB980000000000001092
+t1363467160
+s4242
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Scrap.h
+c000000005144DB9800000000000059CD
+t1363467160
+s22989
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/TSMTE.h
+c000000005144DB98000000000000271B
+t1363467160
+s10011
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/TextEdit.h
+c000000005144DB98000000000001315B
+t1363467160
+s78171
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/TextInputSources.h
+c000000005144DB98000000000000D276
+t1363467160
+s53878
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/TextServices.h
+c000000005144DB980000000000012915
+t1363467160
+s76053
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Translation.h
+c000000005144DB980000000000002BD6
+t1363467160
+s11222
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/TranslationExtensions.h
+c000000005144DB9800000000000024EE
+t1363467160
+s9454
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/TypeSelect.h
+c000000005144DB980000000000001A70
+t1363467160
+s6768
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers/AppleHelp.h
+c000000005144DB980000000000001A33
+t1363467160
+s6707
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers/Help.h
+c000000005144DB980000000000000232
+t1363467160
+s562
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers/ICAApplication.h
+c000000005144DB980000000000014792
+t1363467160
+s83858
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers/ICACamera.h
+c000000005144DB98000000000000316F
+t1363467160
+s12655
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers/ICADevice.h
+c000000005144DB980000000000001885
+t1363467160
+s6277
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers/ImageCapture.h
+c000000005144DB98000000000000028A
+t1363467160
+s650
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers/Ink.h
+c000000005144DB98000000000000EB6D
+t1363467160
+s60269
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers/Navigation.h
+c000000005144DB9A0000000000013FF7
+t1363467162
+s81911
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers/NavigationServices.h
+c000000005144DB9A000000000000029C
+t1363467162
+s668
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers/ASDebugging.h
+c000000005144DB9A0000000000002B17
+t1363467162
+s11031
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers/ASRegistry.h
+c000000005144DB9A0000000000002E7C
+t1363467162
+s11900
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers/AppleScript.h
+c000000005144DB9A00000000000025C9
+t1363467162
+s9673
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers/DigitalHubRegistry.h
+c000000005144DB9A0000000000000696
+t1363467162
+s1686
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers/FinderRegistry.h
+c000000005144DB9A00000000000078D9
+t1363467162
+s30937
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers/OSA.h
+c000000005144DB9A00000000000127C4
+t1363467162
+s75716
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers/OSAComp.h
+c000000005144DB9A00000000000008B1
+t1363467162
+s2225
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers/OSAGeneric.h
+c000000005144DB9A000000000000134F
+t1363467162
+s4943
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers/OpenScripting.h
+c000000005144DB9A000000000000049E
+t1363467162
+s1182
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers/PMApplication.h
+c000000005144DB9C0000000000002535
+t1363467164
+s9525
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers/PMApplicationDeprecated.h
+c000000005144DB9C0000000000000582
+t1363467164
+s1410
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers/Print.h
+c000000005144DB9C00000000000002B3
+t1363467164
+s691
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers/KeychainHI.h
+c000000005144DB9D000000000000284B
+t1363467165
+s10315
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers/SecCertificateSupport.h
+c000000005144DB9D00000000000018BF
+t1363467165
+s6335
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers/SecurityHI.h
+c000000005144DB9D00000000000002F5
+t1363467165
+s757
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers/URLAccess.h
+c000000005144DB9D000000000000566B
+t1363467165
+s22123
+
+N/System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers/SpeechRecognition.h
+c000000005144DB9D00000000000084CF
+t1363467165
+s33999
+
+N/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000005144DB96000000000000058C
+t1363467158
+s1420
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000512A96790000000000006730
+t1361745529
+s26416
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000513E741C00000000001017A0
+t1363047452
+s1054624
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000513E750D0000000000656060
+t1363047693
+s6643808
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c00000000512A967E000000000000D4F0
+t1361745534
+s54512
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c00000000513E75380000000000130990
+t1363047736
+s1247632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000513E742F000000000002DAD0
+t1363047471
+s187088
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000513E75790000000000322E20
+t1363047801
+s3288608
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../addons/ofxCsv/src/ofxCsv.cpp
+c0000000050D3F4F80000000000002144
+t1356068088
+s8516
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx/GLUT.framework
+c0000000051237D4800000000000000CC
+t1361280328
+s204
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c0000000051237D480000000000093570
+t1361280328
+s603504
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app
+t2
+s0
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/Frameworks/GLUT.framework
+t2
+s0
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/MacOS/StoryCorpsDebug
+t2
+s0
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/StoryCorpsDebug.LinkFileList
+c000000005175D4DE000000000000024D
+t1366676702
+s589
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/data.o
+t2
+s0
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/ofxCsv.o
+t2
+s0
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/testApp.o
+t2
+s0
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c000000005175D4DE0000000000000114
+t1366676702
+s276
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/data/data.cpp
+c000000005161E9930000000000000312
+t1365371283
+s786
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/main.cpp
+c0000000050D3F4F8000000000000074E
+t1356068088
+s1870
+i"ofMain.h"
+i"testApp.h"
+i"ofAppGlutWindow.h"
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/testApp.cpp
+c000000005175CCCF0000000000000E50
+t1366674639
+s3664
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/testApp.h
+c000000005175D3AF0000000000000875
+t1366676399
+s2165
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/libs/openFrameworks/app/ofAppGlutWindow.h
+c0000000051237D4A0000000000000701
+t1361280330
+s1793
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/libs/openFrameworks/ofMain.h
+c0000000051237D4A0000000000000686
+t1361280330
+s1670
+
+N/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c000000005175D4DE00000000016A5698
+t1366676702
+s23746200
+
+N/var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h.pth
+t2
+s0
+
+NopenFrameworks-Info.plist
+c0000000050D3F4F80000000000000265
+t1356068088
+s613
+
+CBuild AST from /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../addons/ofxCsv/src/ofxCsv.cpp
+r0
+
+CBuild AST from /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/data/data.cpp
+r0
+
+CBuild AST from /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/main.cpp
+r0
+
+CBuild AST from /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/testApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9756875e0c26b741^a720b35e0c26b741^---0#1#0#--18"Check dependencies36"6C6F90D4-B58C-4E41-B96C-95C90581FE45-
+
+CCompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/data.o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/data/data.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s388369507.175187
+e388369508.646978
+r1
+xCompileC
+xbuild/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/data.o
+x/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/data/data.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/data/data.cppfb032d630c26b741^c40ba6640c26b741^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/data/data.cpp0000000000000000^3277"CompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/data.o src/data/data.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -Wno-invalid-offsetof -g -mssse3 -Wno-sign-conversion -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/StoryCorpsDebug.hmap -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources/i386 -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h -MMD -MT dependencies -MF /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/data.d --serialize-diagnostics /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/data.dia -c /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/data/data.cpp -o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/data.o36"E7FA5528-4A35-4426-92DA-DD6894529B01-
+
+CCompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/main.o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s388369504.816972
+e388369506.485682
+r1
+xCompileC
+xbuild/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/main.o
+x/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/main.cppc346d1600c26b741^8d637c620c26b741^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/main.cpp0000000000000000^3267"CompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -Wno-invalid-offsetof -g -mssse3 -Wno-sign-conversion -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/StoryCorpsDebug.hmap -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources/i386 -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h -MMD -MT dependencies -MF /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/main.d --serialize-diagnostics /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/main.dia -c /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/main.cpp -o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/main.o36"D7D05F4E-BF0E-4BF6-9C04-136115578521-
+
+CCompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/ofxCsv.o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../addons/ofxCsv/src/ofxCsv.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s388369504.815608
+e388369507.173646
+r1
+xCompileC
+xbuild/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/ofxCsv.o
+x/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../addons/ofxCsv/src/ofxCsv.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../addons/ofxCsv/src/ofxCsv.cppe10dd1600c26b741^008b2c630c26b741^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../addons/ofxCsv/src/ofxCsv.cpp0000000000000000^3325"CompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/ofxCsv.o ../../../addons/ofxCsv/src/ofxCsv.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -Wno-invalid-offsetof -g -mssse3 -Wno-sign-conversion -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/StoryCorpsDebug.hmap -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources/i386 -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h -MMD -MT dependencies -MF /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/ofxCsv.d --serialize-diagnostics /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/ofxCsv.dia -c /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../addons/ofxCsv/src/ofxCsv.cpp -o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/ofxCsv.o36"839D1A6C-D294-4DC4-A6EE-BCFB7408EAAE-
+
+CCompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/testApp.o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/testApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s388369506.487007
+e388369508.438295
+r1
+xCompileC
+xbuild/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/testApp.o
+x/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/testApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/testApp.cpp4ed27c620c26b741^c63370640c26b741^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/testApp.cpp0000000000000000^3285"CompileC build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/testApp.o src/testApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -Wno-invalid-offsetof -g -mssse3 -Wno-sign-conversion -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/StoryCorpsDebug.hmap -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources/i386 -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h -MMD -MT dependencies -MF /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/testApp.d --serialize-diagnostics /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/testApp.dia -c /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/src/testApp.cpp -o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/testApp.o36"A97A9993-F6FB-42B3-B041-602B5725CF94-
+
+CLd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/MacOS/StoryCorpsDebug normal i386
+s388369508.653383
+e388369510.469807
+r1
+xLd
+x/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/MacOS/StoryCorpsDebug
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/MacOS/StoryCorpsDebug8462a7640c26b741^564578660c26b741^---0#0#0#--1897"Ld bin/StoryCorpsDebug.app/Contents/MacOS/StoryCorpsDebug normal i386    cd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -L/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx -filelist /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/StoryCorpsDebug.LinkFileList -dead_strip ../../../libs/poco/lib/osx/PocoCrypto.a ../../../libs/poco/lib/osx/PocoData.a ../../../libs/poco/lib/osx/PocoDataODBC.a ../../../libs/poco/lib/osx/PocoDataSQLite.a ../../../libs/poco/lib/osx/PocoFoundation.a ../../../libs/poco/lib/osx/PocoNet.a ../../../libs/poco/lib/osx/PocoNetSSL.a ../../../libs/poco/lib/osx/PocoUtil.a ../../../libs/poco/lib/osx/PocoXML.a ../../../libs/poco/lib/osx/PocoZip.a ../../../libs/tess2/lib/osx/tess2.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo-script-interpreter.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/cairo/lib/osx/pixman-1.a ../../../libs/fmodex/lib/osx/libfmodex.dylib ../../../libs/rtAudio/lib/osx/rtAudio.a -framework GLUT /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/MacOS/StoryCorpsDebug36"F027C69B-50E4-4C33-8A7D-E2E564A4AC30-
+
+CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/StoryCorpsDebug.app/Contents/Frameworks/GLUT.framework
+s388369510.811605
+e388369511.084756
+r1
+xPBXCp
+x../../../libs/glut/lib/osx/GLUT.framework
+xbin/StoryCorpsDebug.app/Contents/Frameworks/GLUT.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy bin/StoryCorpsDebug.app/Contents/Frameworks/GLUT.framework6adccf660c26b741^67f215670c26b741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/Frameworks/GLUT.framework000000000080d041^531"PBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/StoryCorpsDebug.app/Contents/Frameworks/GLUT.framework    cd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx/GLUT.framework /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/Frameworks36"41AFAB25-ACAB-409B-84BD-19290361DFCD-
+
+CPhaseScriptExecution "Run Script" /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+s388369510.477936
+e388369510.782287
+r1
+xPhaseScriptExecution
+xRun Script
+x/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'a8a77b660c26b741^7d5bc8660c26b741^---0#0#0#--25393"PhaseScriptExecution "Run Script" build/StoryCorps.build/Debug/StoryCorps.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER kalicious    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build    setenv BUILD_ROOT /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin    setenv CACHE_ROOT /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin    setenv CONFIGURATION_TEMP_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug    setenv CONTENTS_FOLDER_PATH StoryCorpsDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources    setenv DERIVED_FILE_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH StoryCorpsDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/StoryCorps.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME StoryCorpsDebug.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH StoryCorpsDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH StoryCorpsDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME StoryCorpsDebug    setenv EXECUTABLE_PATH StoryCorpsDebug.app/Contents/MacOS/StoryCorpsDebug    setenv FILE_LIST /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH StoryCorpsDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin\"  \"/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME StoryCorpsDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING G4    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtAudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/include\" \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\""    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH StoryCorpsDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH StoryCorpsDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/StoryCorps.dst/Users/kalicious/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER kalicious    setenv INSTALL_PATH /Users/kalicious/Applications    setenv INSTALL_ROOT /tmp/StoryCorps.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH StoryCorpsDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/StoryCorpsDebug-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin\"                                                              "    setenv LIB_CAIRO1 "\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    setenv LIB_CAIRO2 "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_CAIRO3 "\"../../../libs/cairo/lib/osx/pixman-1.a\""    setenv LIB_FMODEX "\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/osx/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLUT "\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    setenv LIB_POCO_1 "\"../../../libs/poco/lib/osx/PocoCrypto.a\""    setenv LIB_POCO_10 "\"../../../libs/poco/lib/osx/PocoZip.a\""    setenv LIB_POCO_2 "\"../../../libs/poco/lib/osx/PocoData.a\""    setenv LIB_POCO_3 "\"../../../libs/poco/lib/osx/PocoDataODBC.a\""    setenv LIB_POCO_4 "\"../../../libs/poco/lib/osx/PocoDataSQLite.a\""    setenv LIB_POCO_5 "\"../../../libs/poco/lib/osx/PocoFoundation.a\""    setenv LIB_POCO_6 "\"../../../libs/poco/lib/osx/PocoNet.a\""    setenv LIB_POCO_7 "\"../../../libs/poco/lib/osx/PocoNetSSL.a\""    setenv LIB_POCO_8 "\"../../../libs/poco/lib/osx/PocoUtil.a\""    setenv LIB_POCO_9 "\"../../../libs/poco/lib/osx/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal/i386/StoryCorpsDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH StoryCorpsDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12D78    setenv MAC_OS_X_VERSION_ACTUAL 1083    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0803    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects    setenv OBJECT_FILE_DIR_normal /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Objects-normal    setenv OBJROOT /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\""    setenv OF_CORE_LIBS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread"    setenv OTHER_LDFLAGS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH StoryCorpsDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/PkgInfo    setenv PKGINFO_PATH StoryCorpsDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4H1003    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH StoryCorpsDebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH StoryCorpsDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME StoryCorpsDebug    setenv PRODUCT_SETTINGS_PATH /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT StoryCorps    setenv PROJECT_DERIVED_FILE_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/DerivedSources    setenv PROJECT_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    setenv PROJECT_FILE_PATH /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/StoryCorps.xcodeproj    setenv PROJECT_NAME StoryCorps    setenv PROJECT_TEMP_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build    setenv PROJECT_TEMP_ROOT /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build    setenv PUBLIC_HEADERS_FOLDER_PATH StoryCorpsDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH StoryCorpsDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SDK_PRODUCT_BUILD_VERSION 12D78    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH StoryCorpsDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH StoryCorpsDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    setenv SRCROOT /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME StoryCorps    setenv TARGET_BUILD_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin    setenv TARGET_NAME StoryCorps    setenv TARGET_TEMP_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build    setenv TEMP_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build    setenv TEMP_FILES_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build    setenv TEMP_FILE_DIR /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build    setenv TEMP_ROOT /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH StoryCorpsDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER kalicious    setenv USER_APPS_DIR /Users/kalicious/Applications    setenv USER_LIBRARY_DIR /Users/kalicious/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH StoryCorpsDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER kalicious    setenv VERSION_INFO_FILE StoryCorpsDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:StoryCorpsDebug  PROJECT:StoryCorps-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME StoryCorpsDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh36"F3D640E7-66FC-4598-B661-162BA45E5828-
+
+CProcessInfoPlistFile /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/Info.plist openFrameworks-Info.plist
+s388369502.613442
+e388369502.644181
+r1
+xProcessInfoPlistFile
+x/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/Info.plist
+xopenFrameworks-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process openFrameworks-Info.plist7d209d5e0c26b741^e529b35e0c26b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/openFrameworks-Info.plist0000000000000000^510"ProcessInfoPlistFile bin/StoryCorpsDebug.app/Contents/Info.plist openFrameworks-Info.plist    cd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app/Contents/Info.plist36"DD57DFBC-AEC6-453D-9B71-FF0B993B3CA5-
+
+CProcessPCH++ /Users/kalicious/Library/Developer/Xcode/DerivedData/StoryCorps-fwoafjgamyaephejtltgfxgnrtth/Index/PrecompiledHeaders/Carbon-dkliikxesxjvmpclchdzhvktxvlg_ast/Carbon.h.pth /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h.pth /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s388369502.652578
+e388369504.808883
+r1
+xProcessPCH++
+x/var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h.pth
+x/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile /System/Library/Frameworks/Carbon.framework/Headers/Carbon.hcd3aa75e0c26b741^2b31cf600c26b741^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@76"file://localhost/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h0000000000000000^3210"ProcessPCH++ /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h.pth /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -Wno-invalid-offsetof -g -mssse3 -Wno-sign-conversion -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/StoryCorpsDebug.hmap -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources/i386 -I/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/build/StoryCorps.build/Debug/StoryCorps.build/DerivedSources -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin -F/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread --serialize-diagnostics /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h.dia -c /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h.pth -MMD -MT dependencies -MF /var/folders/bt/t__v3y2s2vxckkjx1_ck1l5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-azrsikmvfuxrohglvrogpgrbbyhr/Carbon.h.d36"69E1BC3A-6337-4C8D-84E7-458914DDAE07-
+
+CTouch /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app
+s388369511.095761
+e388369511.112486
+r1
+xTouch
+x/Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app569a18670c26b741^2c0c1d670c26b741^---0#0#0#--229"Touch bin/StoryCorpsDebug.app    cd /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps    /usr/bin/touch -c /Volumes/HD2/OpenFrameworks/of_v0.7.4_osx_release/apps/myApps/storyCorps/bin/StoryCorpsDebug.app36"8836A6F3-EA35-43A7-B2A7-F25F123E3ACD-
+
