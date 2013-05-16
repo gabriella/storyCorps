@@ -28,11 +28,8 @@ class testApp : public ofBaseApp{
 		ofDirectory dir;
 		vector<ofImage> images;
     string str;
-   // ofDirectory data;
 		int currentImage;
-   // string data;
     vector<string> fileTxt ;
-    //ofVec2f loadData();
-	string loadData(string Minput);
+    ofVec2f loadData(string Minput);
 };
 
